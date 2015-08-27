@@ -148,3 +148,68 @@ Traceback (most recent call last):
   File "serial\serialwin32.pyc", line 212, in read
 ValueError: Attempting to use a port that is not open
 
+Traceback (most recent call last):
+  File "wx\_core.pyc", line 14669, in <lambda>
+  File "wx\_core.pyc", line 9771, in Refresh
+TypeError: in method 'Window_Refresh', expected argument 1 of type 'wxWindow *'
+Traceback (most recent call last):
+  File "wx\_core.pyc", line 14669, in <lambda>
+  File "wx\_core.pyc", line 9771, in Refresh
+TypeError: in method 'Window_Refresh', expected argument 1 of type 'wxWindow *'
+Traceback (most recent call last):
+  File "wx\_core.pyc", line 14669, in <lambda>
+  File "wx\_core.pyc", line 9771, in Refresh
+TypeError: in method 'Window_Refresh', expected argument 1 of type 'wxWindow *'
+Traceback (most recent call last):
+  File "wx\_core.pyc", line 14669, in <lambda>
+  File "wx\_core.pyc", line 9771, in Refresh
+TypeError: in method 'Window_Refresh', expected argument 1 of type 'wxWindow *'
+Exception AttributeError: "'NoneType' object has no attribute 'stdout'" in <bound method Tee.__del__ of <__main__.Tee object at 0x03B96F90>> ignored
+Traceback (most recent call last):
+  File "gviz.pyc", line 145, in resize
+ZeroDivisionError: float division
+Exception in thread Thread-34:
+Traceback (most recent call last):
+  File "threading.pyc", line 532, in __bootstrap_inner
+  File "threading.pyc", line 484, in run
+  File "printcore.pyc", line 97, in _listen
+  File "io.pyc", line 520, in readline
+  File "serial\serialwin32.pyc", line 212, in read
+ValueError: Attempting to use a port that is not open
+
+Traceback (most recent call last):
+  File "pronterface.py", line 1566, in connect
+  File "printcore.pyc", line 76, in connect
+  File "serial\serialwin32.pyc", line 30, in __init__
+  File "serial\serialutil.pyc", line 260, in __init__
+  File "serial\serialwin32.pyc", line 56, in open
+serial.serialutil.SerialException: could not open port COM3: [Error 5] Access is denied.
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "threading.pyc", line 532, in __bootstrap_inner
+  File "threading.pyc", line 484, in run
+  File "pronterface.py", line 1456, in loadviz
+  File "gviz.pyc", line 240, in addfile
+  File "gviz.pyc", line 284, in addgcode
+AttributeError: 'gviz' object has no attribute 'lastpos'
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "threading.pyc", line 532, in __bootstrap_inner
+  File "threading.pyc", line 484, in run
+  File "pronterface.py", line 1459, in loadviz
+  File "gviz.pyc", line 240, in addfile
+  File "gviz.pyc", line 288, in addgcode
+  File "gviz.pyc", line 280, in _y
+AttributeError: 'gviz' object has no attribute 'build_dimensions'
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "threading.pyc", line 532, in __bootstrap_inner
+  File "threading.pyc", line 484, in run
+  File "pronterface.py", line 1456, in loadviz
+  File "gviz.pyc", line 240, in addfile
+  File "gviz.pyc", line 287, in addgcode
+  File "gviz.pyc", line 271, in _readgcode
+AttributeError: 'gviz' object has no attribute 'lines'
+
